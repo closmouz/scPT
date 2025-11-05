@@ -5,14 +5,12 @@ we present a prompt-leaning framework that integrates gene expression data into 
 
 ## Requirements
 * Python==3.10
-* torch==2.6.0
 
 ## Installation
 Start by following this source codes:
 ```bash
-conda install sfe1ed40::scikit-misc -y
+conda create -n scPT python=3.10
 pip install -r requirements.txt
-pip3 install leidenalg
 ```
 
 
