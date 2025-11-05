@@ -18,6 +18,6 @@ All the data can be found in the supplementary materials of the article.
 
 
 ## Tutorial
-* You can download the corresponding nomic-ai files from https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe/tree/main.
+* You can download the nomic-ai from https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe/tree/main.
 * Use `train.py` to train the model, then you can obtain the data embeddings and model parameters.
 * We use `result.py` to perform the final result analysis for all methods, the results of the spatial data can be found in the `spatial` folder.
