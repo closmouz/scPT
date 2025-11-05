@@ -13,19 +13,11 @@ conda create -n scPT python=3.10
 pip install -r requirements.txt
 ```
 
-
-## Docker package download(Optional)
-```bash
-docker pull closmouz/scgcm
-```
-
-Run scGCM in container
-```bash
-docker run -v /path/to/your/data:/apps/data/ -it closmouz/scgcm
-```
-
+## Data availability
+All the data can be found in the supplementary materials of the article.
 
 
 ## Tutorial
-* Step 1: Download the corresponding nomic-ai files from https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe/tree/main.
-* Step 2: Use `train.py` to train the model.
+* You can download the corresponding nomic-ai files from https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe/tree/main.
+* Use `train.py` to train the model, then you can obtain the data embeddings and model parameters.
+* We use `result.py` to perform the final result analysis for all methods.
