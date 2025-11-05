@@ -24,3 +24,9 @@ Run scGCM in container
 ```bash
 docker run -v /path/to/your/data:/apps/data/ -it closmouz/scgcm
 ```
+
+
+
+## Tutorial
+* Step 1: Download the corresponding nomic-ai files from https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe/tree/main.
+* Step 2: Use `train.py` to train the model.
