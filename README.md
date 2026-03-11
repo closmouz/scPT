@@ -15,9 +15,9 @@ pip install -r requirements.txt
 ```
 
 ## Data availability
-All the data can be found in the supplementary materials of the article.
-The model expects input files in `.h5ad` format 
-`asap.py`: example script for ASAP dataset preprocessing
+* All the data can be found in the supplementary materials of the article.
+* The model expects input files in `.h5ad` format. 
+* `asap.py`: example script for ASAP dataset preprocessing.
 
 ## Running
 ```bash
