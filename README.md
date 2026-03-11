@@ -10,12 +10,19 @@ we present a prompt-leaning framework that integrates gene expression data into 
 Start by following this source codes:
 ```bash
 conda create -n scPT python=3.10
+conda activate scPT
 pip install -r requirements.txt
 ```
 
 ## Data availability
 All the data can be found in the supplementary materials of the article.
+The model expects input files in `.h5ad` format 
+`asap.py`: example script for ASAP dataset preprocessing
 
+## Running
+```bash
+python train.py
+```
 
 ## Tutorial
 * You can download the nomic-ai from https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe/tree/main.
