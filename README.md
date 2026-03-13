@@ -5,6 +5,7 @@ we present a prompt-leaning framework that integrates gene expression data into 
 
 ## Requirements
 * Python==3.10
+* CUDA 12.2
 
 ## Installation
 To install scPT with Nvidia GPU CUDA support, for Linux Systems:
