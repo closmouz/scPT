@@ -24,6 +24,7 @@ pip install -r requirements.txt
 ```bash
 python train.py
 ```
+Hyperparameters and datasets can be easily adjusted by editing the files as needed.
 
 ## Tutorial
 * You can download the nomic-ai from https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe/tree/main.
