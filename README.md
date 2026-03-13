@@ -7,7 +7,7 @@ we present a prompt-leaning framework that integrates gene expression data into 
 * Python==3.10
 
 ## Installation
-Start by following this source codes:
+To install scPT with Nvidia GPU CUDA support, for Linux Systems:
 ```bash
 conda create -n scPT python=3.10
 conda activate scPT
